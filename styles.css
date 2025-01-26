@@ -1,0 +1,186 @@
+/* تنظیمات اولیه */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gandom', sans-serif;
+    background-color: #747070;
+    line-height: 3.2;
+}
+
+/* استایل هدر */
+header {
+    background-color: #321999;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+}
+
+header h1 {
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 22px;
+}
+
+/* استایل بخش‌های مختلف */
+section {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+section h1 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    font-size: 44px;
+    margin-bottom: 10px;
+}
+
+/* استایل تصویر */
+.about img {
+    width: 350px;
+    height: 350px;
+    border-radius: 75%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/* استایل پروژه‌ها */
+.project {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.project img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.project h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    color: #321999;
+}
+
+/* استایل فرم تماس */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+form input, form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    padding: 12px;
+    background-color: #321999;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* استایل ناوبری */
+nav ul {
+    list-style: none;
+    background-color: #321999;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+nav ul li a:hover {
+    color: #ccc;
+}
+
+/* استایل ریسپانسیو */
+@media (max-width: 768px) {
+    section {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    .project img {
+        max-width: 100%;
+    }
+
+    form {
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+}
